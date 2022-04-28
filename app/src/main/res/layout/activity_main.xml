@@ -9,15 +9,15 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="551dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="92dp"
+        android:contentDescription="TODO"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/screenshot_2022_04_19_at_11_07_05"
-        android:contentDescription="TODO" />
+        app:srcCompat="@drawable/screenshot_2022_04_19_at_11_07_05" />
 
     <Button
         android:id="@+id/kehitys"
@@ -30,7 +30,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/ohjelmat"
+        android:id="@+id/saliohjelmat"
         android:layout_width="324dp"
         android:layout_height="94dp"
         android:text="Saliohjelmat"

@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-
+    private Button saliohjelmat;
     private Button kehitys;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,20 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openOmaKehitys() {
         Intent intent = new Intent(this, OmaKehitys.class);
+        startActivity(intent);
+    }
+
+    saliohjelmat = (Button) findViewById(R.id.saliohjelmat);
+        saliohjelmat.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View Object view;
+        view) {
+            openSaliohjelmat();
+        }
+    });
+
+    public void openSaliohjelmat() {
+        Intent intent = new Intent(this, Saliohjelmat.class);
         startActivity(intent);
     }
 }
