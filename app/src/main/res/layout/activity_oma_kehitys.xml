@@ -6,4 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".OmaKehitys">
 
+    <ProgressBar
+        android:id="@+id/simpleProgressBar"
+        android:layout_width="234dp"
+        android:layout_height="99dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <ProgressBar
+        android:id="@+id/simpleProgressBar"
+        android:layout_width="234dp"
+        android:layout_height="99dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <ProgressBar
+        android:id="@+id/simpleProgressBar"
+        android:layout_width="234dp"
+        android:layout_height="99dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="371dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
