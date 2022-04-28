@@ -16,7 +16,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/screenshot_2022_04_19_at_11_07_05" />
+        app:srcCompat="@drawable/screenshot_2022_04_19_at_11_07_05"
+        android:contentDescription="TODO" />
 
     <Button
         android:id="@+id/kehitys"
