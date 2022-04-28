@@ -8,37 +8,124 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="551dp"
-        android:layout_height="108dp"
-        android:layout_marginTop="92dp"
+        android:id="@+id/Logo"
+        android:layout_width="184dp"
+        android:layout_height="29dp"
         android:contentDescription="TODO"
         android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024"
         app:srcCompat="@drawable/screenshot_2022_04_19_at_11_07_05" />
 
-    <Button
-        android:id="@+id/kehitys"
-        android:layout_width="324dp"
-        android:layout_height="94dp"
-        android:text="Oma Kehitys"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="350dp"
+        android:layout_height="222dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/saliohjelmat"
-        android:layout_width="324dp"
-        android:layout_height="94dp"
-        android:text="@string/saliohjelmat"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.67" />
+        app:layout_constraintVertical_bias="0.77">
+
+        <Button
+            android:id="@+id/Ohjelmat_Button"
+
+            android:layout_width="350dp"
+            android:layout_height="75dp"
+            android:backgroundTint="@color/delta_blue"
+
+            android:fontFamily="@font/archivo_black"
+            android:text="@string/saliohjelmat"
+            android:textColor="@color/white"
+
+
+            app:strokeWidth="2dp" />
+
+        <Button
+            android:id="@+id/Kehitys_Button"
+
+            android:layout_width="350dp"
+            android:layout_height="75dp"
+            android:backgroundTint="@color/delta_blue"
+            android:fontFamily="@font/archivo_black"
+            android:text="@string/oma_kehitys"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/Treenit_Button"
+
+            android:layout_width="350dp"
+            android:layout_height="75dp"
+
+
+            android:backgroundTint="@color/delta_blue"
+            android:fontFamily="@font/archivo_black"
+            android:text="@string/omat_treenit"
+            android:textColor="@color/white" />
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Main_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="178dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="ALOITA HARJOITTELU VALITSEMALLA SALIOHJELMAT!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <TextView
+        android:id="@+id/Otsikko_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="TERVETULOA!"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <Button
+        android:id="@+id/Info_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <TextView
+        android:id="@+id/InfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Info_Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Info saatu"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
