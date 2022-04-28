@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     saliohjelmat = (Button) findViewById(R.id.saliohjelmat);
         saliohjelmat.setOnClickListener(new View.OnClickListener() {
-        @Override
+
         public void onClick(View Object view;
         view) {
             openSaliohjelmat();
