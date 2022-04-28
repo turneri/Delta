@@ -33,7 +33,7 @@
         android:id="@+id/saliohjelmat"
         android:layout_width="324dp"
         android:layout_height="94dp"
-        android:text="Saliohjelmat"
+        android:text="@string/saliohjelmat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
