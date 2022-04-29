@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,22 +11,109 @@
 
     <ImageView
         android:id="@+id/Logo"
-        android:layout_width="184dp"
-        android:layout_height="29dp"
+        android:layout_width="231dp"
+        android:layout_height="58dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="31dp"
-        android:layout_marginEnd="123dp"
-        android:layout_marginBottom="671dp"
-        android:contentDescription="TODO"
+        android:layout_marginTop="52dp"
+
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.16000003"
         app:srcCompat="@drawable/screenshot_2022_04_19_at_11_07_05" />
 
+    <Button
+        android:id="@+id/jalkapaiva"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="156dp"
+        android:backgroundTint="@color/delta_blue"
+        android:fontFamily="@font/archivo_black"
+        android:text="Jalkapäivä"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selka"
+        app:layout_constraintVertical_bias="1.0"
+        app:strokeWidth="2dp" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/rinta"
+
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="@color/delta_blue"
+        android:fontFamily="@font/archivo_black"
+        android:text="Rinta/Olkapää/Ojentaja"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/selka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.852" />
+
+    <Button
+        android:id="@+id/selka"
+
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+
+
+        android:backgroundTint="@color/delta_blue"
+        android:fontFamily="@font/archivo_black"
+        android:text="Selkä/Hauis"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615" />
+    <Button
+        android:id="@+id/Info_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <TextView
+        android:id="@+id/InfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Info_Button"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="253dp"
+        android:layout_height="57dp"
+        android:text="Valitse alapuolelta itsellesi treeniohjelma."
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.229" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
