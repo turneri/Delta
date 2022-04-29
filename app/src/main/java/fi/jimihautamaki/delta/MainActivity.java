@@ -49,33 +49,29 @@ public class MainActivity extends AppCompatActivity {
         });
 
         kehitys = (Button) findViewById(R.id.Kehitys_Button);
+        saliohjelmat = (Button) findViewById(R.id.Ohjelmat_Button);
+
         kehitys.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openOmaKehitys();
-
-
-                saliohjelmat = (Button) findViewById(R.id.Ohjelmat_Button);
-                saliohjelmat.setOnClickListener(new View.OnClickListener() {
-
-                    public void onClick(View view) {
-                        openSaliohjelmat();
-                    }
-                });
-            }
-
-            public void openOmaKehitys() {
                 Intent intent = new Intent(MainActivity.this, OmaKehitys.class);
                 startActivity(intent);
             }
+        });
 
-                public void openSaliohjelmat() {
-                    Intent sali = new Intent(MainActivity.this, Saliohjelmat.class);
-                    startActivity(sali);
-                }
+        saliohjelmat.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                 Intent sali = new Intent(MainActivity.this, Saliohjelmat.class);
+                 startActivity(sali);
+              }
+        });
 
-            });
+
+
+
+            }
         }
-    }
+
 
 

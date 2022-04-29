@@ -12,6 +12,8 @@
         <activity
             android:name=".OmaKehitys"
             android:exported="false" />
+        <activity android:name=".Saliohjelmat"
+                />
         <activity
             android:name=".MainActivity"
             android:exported="true">
