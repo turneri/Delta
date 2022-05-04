@@ -3,4 +3,10 @@
     <string name="saliohjelmat">Saliohjelmat</string>
     <string name="oma_kehitys">Oma Kehitys</string>
     <string name="omat_treenit">Omat treenit</string>
+
+    <string-array name="saliohjelmatArray">
+        <item>Rinta/Olkapää/Ojentaja</item>
+        <item>Selkä/Hauis</item>
+        <item>Jalat</item>
+    </string-array>
 </resources>
