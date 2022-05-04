@@ -10,10 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Delta">
         <activity
+            android:name=".Ohjelma_3"
+            android:exported="false" />
+        <activity
+            android:name=".Ohjelma_1"
+            android:exported="false" />
+        <activity
             android:name=".OmaKehitys"
             android:exported="false" />
-        <activity android:name=".Saliohjelmat"
-                />
+        <activity android:name=".Saliohjelmat" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
