@@ -1,16 +1,21 @@
-pluginManagement {
+buildscript {
     repositories {
-        gradlePluginPortal()
+        jcenter()
         google()
-        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.0'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
     }
 }
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+
+allprojects {
     repositories {
+        jcenter()
         google()
-        mavenCentral()
     }
 }
+
+    
 rootProject.name = "Delta"
 include ':app'
