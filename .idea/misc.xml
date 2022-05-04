@@ -3,12 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Oliver/StudioProjects/Delta/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Oliver/StudioProjects/Delta/app/src/main/res/layout/activity_oma_kehitys.xml" value="0.18614130434782608" />
-        <entry key="..\:/Users/Oliver/StudioProjects/Delta/app/src/main/res/layout/activity_saliohjelmat.xml" value="0.25" />
         <entry key="app/src/main/res/drawable/roundbutton.xml" value="0.2245" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_oma_kehitys.xml" value="0.28177083333333336" />
+        <entry key="app/src/main/res/layout/activity_oma_treeni.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_saliohjelmat.xml" value="0.28177083333333336" />
       </map>
     </option>

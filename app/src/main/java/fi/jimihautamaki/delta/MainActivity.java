@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button saliohjelmat;
     private Button kehitys;
+    private Button omaTreeni;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
         kehitys = (Button) findViewById(R.id.Kehitys_Button);
         saliohjelmat = (Button) findViewById(R.id.Ohjelmat_Button);
+        omaTreeni = (Button) findViewById(R.id.Treenit_Button);
 
         kehitys.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,6 +67,14 @@ public class MainActivity extends AppCompatActivity {
                  Intent sali = new Intent(MainActivity.this, Saliohjelmat.class);
                  startActivity(sali);
               }
+        });
+
+        omaTreeni.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent oma = new Intent(MainActivity.this, OmaTreeni.class);
+                startActivity(oma);
+            }
         });
 
 
