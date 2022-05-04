@@ -22,20 +22,47 @@
         android:id="@+id/pb1"
         android:layout_width="234dp"
         android:layout_height="99dp"
-        android:layout_marginBottom="61dp"
+        android:layout_marginBottom="84dp"
         app:layout_constraintBottom_toTopOf="@+id/pb2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ProgressBar
         android:id="@+id/pb2"
         android:layout_width="234dp"
         android:layout_height="99dp"
-        android:layout_marginTop="61dp"
+        android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pb1" />
+
+    <TextView
+        android:id="@+id/Rinta"
+        android:layout_width="301dp"
+        android:layout_height="27dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/ojentaja"
+        android:layout_width="301dp"
+        android:layout_height="27dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:id="@+id/jalat"
+        android:layout_width="301dp"
+        android:layout_height="27dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="172dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
