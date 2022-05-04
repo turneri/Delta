@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    tools:context=".Ohjelma_2">
+    tools:context=".rintaselka">
+
 
     <ImageView
         android:id="@+id/logo"
@@ -320,5 +321,6 @@
 
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.89" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

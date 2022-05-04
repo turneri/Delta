@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    tools:context=".Ohjelma_2">
+    tools:context=".SelkaHauis">
+
 
     <ImageView
         android:id="@+id/logo"
@@ -23,23 +24,22 @@
 
 
     <TextView
-        android:id="@+id/RintaOlkapääOjentaja"
-        android:layout_width="352dp"
-        android:layout_height="74dp"
+        android:id="@+id/SelkäHauis"
+        android:layout_width="281dp"
+        android:layout_height="51dp"
         android:fontFamily="@font/archivo_black"
-        android:text="@string/rinta_olkap_ojentaja"
+        android:text="@string/selk_ja_hauis"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.161" />
+        app:layout_constraintVertical_bias="0.177" />
 
     <EditText
-        android:id="@+id/PeckDeck_Paino"
+        android:id="@+id/Alatalja_Paino"
         android:layout_width="149dp"
         android:layout_height="48dp"
         android:ems="10"
@@ -51,19 +51,19 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48000002"
+        app:layout_constraintVertical_bias="0.469"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <EditText
-        android:id="@+id/Penkki_Paino"
+        android:id="@+id/YläTalja_paino"
         android:layout_width="155dp"
         android:layout_height="48dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="Syöta paino (kg)"
+        android:hint="Syötä paino (kg)"
         android:inputType="textPersonName"
         android:textAlignment="center"
         android:textColor="#FFFDFD"
@@ -71,42 +71,41 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.33999997" />
+        app:layout_constraintVertical_bias="0.32999998" />
 
     <TextView
-        android:id="@+id/VinoPenkki"
+        android:id="@+id/KulmaSoutu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/archivo_black"
-        android:text="@string/vinopenkki_k_sipainoilla_3x8"
+        android:text="@string/kulmasoutu_tangolla_3x10"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.412" />
+        app:layout_constraintVertical_bias="0.409" />
 
     <TextView
-        android:id="@+id/Penkkipunnerrus"
+        android:id="@+id/YläTalja"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/archivo_black"
-        android:text="@string/penkkipunnerrus_4x8"
+        android:text="@string/yl_talja_4x8"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.04"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.347" />
+        app:layout_constraintVertical_bias="0.342" />
 
     <EditText
-        android:id="@+id/VinoPenkki_Paino"
+        android:id="@+id/Kulma_Paino"
         android:layout_width="149dp"
         android:layout_height="48dp"
         android:autofillHints=""
@@ -122,19 +121,19 @@
         app:layout_constraintHorizontal_bias="0.938"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.41000003" />
+        app:layout_constraintVertical_bias="0.406" />
 
     <TextView
-        android:id="@+id/VipunostotEteen"
+        android:id="@+id/HauiskääntöTaljassa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/archivo_black"
-        android:text="@string/vipunostot_eteen_3x10"
+        android:text="@string/hauisk_nt_taljassa_3x10"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintHorizontal_bias="0.063"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.6" />
@@ -152,25 +151,25 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.54" />
 
     <TextView
-        android:id="@+id/PecDeck"
+        android:id="@+id/Alatalja"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/archivo_black"
-        android:text="@string/pec_deck_3x10"
+        android:text="@string/alatalja_4x8"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintHorizontal_bias="0.04"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48000002" />
+        app:layout_constraintVertical_bias="0.467" />
 
     <EditText
         android:id="@+id/HauisTalja_Paino"
@@ -191,22 +190,22 @@
         app:layout_constraintVertical_bias="0.6" />
 
     <TextView
-        android:id="@+id/VipunostotSivulle"
+        android:id="@+id/HauiskääntöEz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/archivo_black"
-        android:text="@string/vipunostot_sivuille_3x10"
+        android:text="@string/hauisk_nt_ez_tangolla_3x10"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintHorizontal_bias="0.073"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.657" />
+        app:layout_constraintVertical_bias="0.652" />
 
     <EditText
-        android:id="@+id/VipunostotSivu_Paino"
+        android:id="@+id/HauisEz_Paino"
         android:layout_width="128dp"
         android:layout_height="48dp"
         android:ems="10"
@@ -218,94 +217,28 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintHorizontal_bias="0.915"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.65999997" />
 
     <TextView
-        android:id="@+id/PystyPunnerrus"
+        android:id="@+id/HauiskääntöKäsipainoilla"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/archivo_black"
-        android:text="@string/pystypunnerrus_tangolla_3x8"
+        android:text="@string/hauisk_nt_k_sipainoilla_3x10"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.077"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.538" />
-
-    <TextView
-        android:id="@+id/OjentajaTalja"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/archivo_black"
-        android:text="@string/ojentaja_punnerrus_talja_4x8"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.72" />
-
-    <EditText
-        android:id="@+id/OjentajaEz_Paino"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="Syötä paino (kg)"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.869"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73" />
-
-    <TextView
-        android:id="@+id/OjentajaEz"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/archivo_black"
-        android:text="@string/ojentaja_punnerrus_ez_3x10"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.784" />
-
-    <EditText
-        android:id="@+id/OjentajaTalja_Paino"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="Syötä paino (kg)"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.897"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="0.534" />
 
     <Button
-        android:id="@+id/Submit2"
+        android:id="@+id/Submit1"
 
         android:layout_width="200dp"
         android:layout_height="55dp"
@@ -320,5 +253,6 @@
 
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.89" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
