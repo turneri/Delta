@@ -42,7 +42,9 @@
         android:id="@+id/Rinta"
         android:layout_width="301dp"
         android:layout_height="27dp"
-        android:text="TextView"
+        android:background="#00BCD4"
+        android:backgroundTint="#00BCD4"
+        android:text="Selkä/hauispainojen kehitys tällä viikolla"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="25dp" />
@@ -51,7 +53,8 @@
         android:id="@+id/ojentaja"
         android:layout_width="301dp"
         android:layout_height="27dp"
-        android:text="TextView"
+        android:background="#00BCD4"
+        android:text="Rinta/ojentajapainojen kehitys tällä viikolla"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="327dp" />
@@ -60,7 +63,8 @@
         android:id="@+id/jalat"
         android:layout_width="301dp"
         android:layout_height="27dp"
-        android:text="TextView"
+        android:background="#00BCD4"
+        android:text="Jalkapainojen kehitys tällä viikolla"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="172dp" />
