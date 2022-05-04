@@ -36,13 +36,13 @@ public class OmaTreeni extends AppCompatActivity implements AdapterView.OnItemSe
                 Intent oma;
                 switch (valittuTreeni) {
                     case "Rinta":
-                        oma = new Intent(OmaTreeni.this, Saliohjelmat.class);
+                        oma = new Intent(OmaTreeni.this, rintaselka.class);
                         break;
                     case "Selkä":
-                        oma = new Intent(OmaTreeni.this, MainActivity.class);
+                        oma = new Intent(OmaTreeni.this, SelkaHauis.class);
                         break;
                     case "Jalat":
-                        oma = new Intent(OmaTreeni.this, OmaKehitys.class);
+                        oma = new Intent(OmaTreeni.this, Jalat.class);
                         break;
                     default:
                         oma = new Intent(OmaTreeni.this, Saliohjelmat.class);

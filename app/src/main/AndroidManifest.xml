@@ -10,7 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Delta">
         <activity
+            android:name=".Jalat"
+            android:exported="false" />
+        <activity
+            android:name=".SelkaHauis"
+            android:exported="false" />
+        <activity
+            android:name=".rintaselka"
+            android:exported="false" />
+        <activity
             android:name=".OmaTreeni"
+            android:exported="false" />
+        <activity
+            android:name=".Ohjelma_3"
+            android:exported="false" />
+        <activity
+            android:name=".Ohjelma_1"
             android:exported="false" />
         <activity
             android:name=".OmaKehitys"
