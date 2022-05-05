@@ -14,4 +14,9 @@ import android.widget.TextView;
 public class Kehitys3 extends AppCompatActivity {
 
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.kehitys3);
+    }
 }
