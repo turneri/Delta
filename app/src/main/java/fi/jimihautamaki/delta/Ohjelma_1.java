@@ -16,12 +16,5 @@ public class Ohjelma_1 extends AppCompatActivity {
     }
 
 
-    String fileNameString = sharedPreferencesBinding.fileNameEditView.getText().toString();
-    SharedPreferences sharedPreferences;
-if(fileNameString.isEmpty()) {
-        sharedPreferences = getPreferences(MODE_PRIVATE);
-    }
-else {
-        sharedPreferences = getSharedPreferences(fileNameString, MODE_PRIVATE);
     }
 }
