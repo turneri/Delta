@@ -30,7 +30,7 @@
         android:layout_marginBottom="156dp"
         android:backgroundTint="@color/delta_blue"
         android:fontFamily="@font/archivo_black"
-        android:text="Jalkapäivä"
+        android:text="Jalat"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,35 +74,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.615" />
-    <Button
-        android:id="@+id/Info_Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Info"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.095"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96" />
-
-    <TextView
-        android:id="@+id/InfoTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/Info_Button"
-        android:layout_centerHorizontal="true"
-        android:textSize="20sp"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="258dp"
-        android:layout_height="87dp"
+        android:layout_width="294dp"
+        android:layout_height="125dp"
         android:fontFamily="@font/archivo_black"
         android:text="Valitse alapuolelta osa-alue jonka kehitystä haluat tarkastella."
         android:textAlignment="center"
