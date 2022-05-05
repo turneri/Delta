@@ -12,4 +12,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 public class Kehitys2 extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.kehitys2);
+    }
 }
