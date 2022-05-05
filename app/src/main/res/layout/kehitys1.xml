@@ -40,44 +40,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.19999999" />
 
-    <EditText
-        android:id="@+id/PeckDeck_PainoK"
-        android:layout_width="149dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="Painojen kehitys"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.564"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48000002"
-        tools:ignore="DuplicateSpeakableTextCheck" />
-
-    <EditText
-        android:id="@+id/Penkki_PainoK"
-        android:layout_width="155dp"
-        android:layout_height="48dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="Painojen kehitys"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textColor="#FFFDFD"
-        android:textColorHint="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.33999997" />
-
     <TextView
         android:id="@+id/VinoPenkkiK"
         android:layout_width="wrap_content"
@@ -107,25 +69,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.347" />
 
-    <EditText
-        android:id="@+id/VinoPenkki_PainoK"
-        android:layout_width="149dp"
-        android:layout_height="48dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="Painojen kehitys"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.938"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.41000003" />
-
     <TextView
         android:id="@+id/VipunostotEteenK"
         android:layout_width="wrap_content"
@@ -140,24 +83,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.6" />
-
-    <EditText
-        android:id="@+id/Käsi_PainoK"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="Painojen kehitys"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.94"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.54" />
 
     <TextView
         android:id="@+id/PecDeckK"
@@ -174,24 +99,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.48000002" />
 
-    <EditText
-        android:id="@+id/HauisTalja_PainoK"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="Painojen kehitys"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.869"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
-
     <TextView
         android:id="@+id/VipunostotSivulleK"
         android:layout_width="wrap_content"
@@ -206,24 +113,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.657" />
-
-    <EditText
-        android:id="@+id/VipunostotSivu_PainoK"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="Painojen kehitys"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.784"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65999997" />
 
     <TextView
         android:id="@+id/PystyPunnerrusK"
@@ -255,24 +144,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.72" />
 
-    <EditText
-        android:id="@+id/OjentajaEz_PainoK"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="Painojen kehitys"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.869"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73" />
-
     <TextView
         android:id="@+id/OjentajaEzK"
         android:layout_width="wrap_content"
@@ -287,26 +158,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.784" />
-
-    <EditText
-        android:id="@+id/OjentajaTalja_PainoK"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="Painojen kehitys"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.897"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
