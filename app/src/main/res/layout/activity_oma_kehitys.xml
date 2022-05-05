@@ -11,18 +11,16 @@
 
     <ImageView
         android:id="@+id/Logo"
-        android:layout_width="231dp"
-        android:layout_height="58dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="52dp"
-
+        android:layout_width="184dp"
+        android:layout_height="29dp"
+        android:contentDescription="Logo"
         android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024"
         app:srcCompat="@drawable/screenshot_2022_04_19_at_11_07_05" />
 
     <Button
@@ -105,12 +103,13 @@
         android:id="@+id/textView"
         android:layout_width="258dp"
         android:layout_height="87dp"
+        android:fontFamily="@font/archivo_black"
         android:text="Valitse alapuolelta osa-alue jonka kehitystä haluat tarkastella."
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.229" />

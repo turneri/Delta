@@ -12,14 +12,15 @@
         android:id="@+id/logo"
         android:layout_width="184dp"
         android:layout_height="29dp"
-        android:layout_marginTop="24dp"
         android:contentDescription="@string/logo"
         android:scaleType="fitXY"
 
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024"
         app:srcCompat="@drawable/screenshot_2022_04_19_at_11_07_05" />
 
 
@@ -37,7 +38,7 @@
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.161" />
+        app:layout_constraintVertical_bias="0.20999998" />
 
     <EditText
         android:id="@+id/PeckDeck_Paino"
