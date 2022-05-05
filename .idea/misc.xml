@@ -3,23 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Oliver/StudioProjects/Delta/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
-        <entry key="..\:/Users/Oliver/StudioProjects/Delta/app/src/main/res/layout/activity_oma_kehitys.xml" value="0.21739130434782608" />
-        <entry key="..\:/Users/Oliver/StudioProjects/Delta/app/src/main/res/layout/activity_saliohjelmat.xml" value="0.1" />
-        <entry key="..\:/Users/Otto/AndroidStudioProjects/Delta/app/src/main/res/layout/activity_jalat.xml" value="0.3605072463768116" />
-        <entry key="..\:/Users/Otto/AndroidStudioProjects/Delta/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/Otto/AndroidStudioProjects/Delta/app/src/main/res/layout/activity_ohjelma1.xml" value="0.3605072463768116" />
-        <entry key="..\:/Users/Otto/AndroidStudioProjects/Delta/app/src/main/res/layout/activity_ohjelma2.xml" value="0.3605072463768116" />
-        <entry key="..\:/Users/Otto/AndroidStudioProjects/Delta/app/src/main/res/layout/activity_ohjelma3.xml" value="0.3605072463768116" />
-        <entry key="..\:/Users/Otto/AndroidStudioProjects/Delta/app/src/main/res/layout/activity_oma_kehitys.xml" value="0.25" />
-        <entry key="..\:/Users/Otto/AndroidStudioProjects/Delta/app/src/main/res/layout/activity_oma_treeni.xml" value="0.31354166666666666" />
-        <entry key="..\:/Users/Otto/AndroidStudioProjects/Delta/app/src/main/res/layout/activity_rintaselka.xml" value="0.3605072463768116" />
-        <entry key="..\:/Users/Otto/AndroidStudioProjects/Delta/app/src/main/res/layout/activity_saliohjelmat.xml" value="0.3795289855072464" />
-        <entry key="..\:/Users/Otto/AndroidStudioProjects/Delta/app/src/main/res/layout/activity_selka_hauis.xml" value="0.3605072463768116" />
-        <entry key="..\:/Users/Otto/AndroidStudioProjects/Delta/app/src/main/res/layout/kehitys1.xml" value="0.4302536231884058" />
-        <entry key="..\:/Users/Otto/AndroidStudioProjects/Delta/app/src/main/res/layout/kehitys2.xml" value="0.4302536231884058" />
-        <entry key="..\:/Users/Otto/AndroidStudioProjects/Delta/app/src/main/res/layout/kehitys3.xml" value="1.5625" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/Oliver/StudioProjects/Delta/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Oliver/StudioProjects/Delta/app/src/main/res/layout/activity_oma_kehitys.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/Oliver/StudioProjects/Delta/app/src/main/res/layout/activity_saliohjelmat.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/roundbutton.xml" value="0.2245" />
+        <entry key="app/src/main/res/layout/activity_jalat.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.13645833333333332" />
+        <entry key="app/src/main/res/layout/activity_ohjelma1.xml" value="0.20087585449218748" />
+        <entry key="app/src/main/res/layout/activity_ohjelma2.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_ohjelma3.xml" value="0.262542724609375" />
+        <entry key="app/src/main/res/layout/activity_oma_kehitys.xml" value="0.28177083333333336" />
+        <entry key="app/src/main/res/layout/activity_oma_treeni.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_rintaselka.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_saliohjelmat.xml" value="0.28177083333333336" />
+        <entry key="app/src/main/res/layout/activity_selka_hauis.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/kehitys1.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/kehitys2.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/kehitys3.xml" value="0.225" />
       </map>
     </option>
   </component>

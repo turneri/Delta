@@ -11,7 +11,7 @@
         android:id="@+id/Logo"
         android:layout_width="184dp"
         android:layout_height="29dp"
-        android:contentDescription="TODO"
+        android:contentDescription="Logo"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
