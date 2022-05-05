@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 public class Ohjelma_2 extends AppCompatActivity {
@@ -37,6 +38,8 @@ public class Ohjelma_2 extends AppCompatActivity {
             vipunostoSivuille = findViewById(R.id.VipunostotSivu_Paino);
             ojentajaTalja = findViewById(R.id.OjentajaEz_Paino);
             ojentajaEZ = findViewById(R.id.OjentajaTalja_Paino);
+
+
 
 
 
