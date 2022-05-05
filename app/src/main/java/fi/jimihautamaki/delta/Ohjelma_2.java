@@ -46,26 +46,18 @@ public class Ohjelma_2 extends AppCompatActivity {
         }
 
         public void updateUI(){
-            penkkipaino.setText(Integer.toString(creationsCounter.getCounter()));
-            vinopenkki.setText(Integer.toString(visiblesCounter.getCounter()));
-            pecDeck.setText(Integer.toString(hitsCounter.getCounter()));
-            kasiPaino.setText(Integer.toString(hitsCounter.getCounter()));
-            vipunostoEteen.setText(Integer.toString(hitsCounter.getCounter()));
-            vipunostoSivuille.setText(Integer.toString(hitsCounter.getCounter()));
-            ojentajaTalja.setText(Integer.toString(hitsCounter.getCounter()));
+            penkkipaino.setText(Integer.toString(.getCounter()));
+            vinopenkki.setText(Integer.toString(.getCounter()));
+            pecDeck.setText(Integer.toString(.getCounter()));
+            kasiPaino.setText(Integer.toString(.getCounter()));
+            vipunostoEteen.setText(Integer.toString(.getCounter()));
+            vipunostoSivuille.setText(Integer.toString(.getCounter()));
+            ojentajaTalja.setText(Integer.toString(.getCounter()));
         }
 
-        public void hitButtonPressed(View view){
-            hitsCounter.addCounter();
 
-            updateUI();
-        }
-        public void resetButtonPressed(View view){
-            creationsCounter.resetCounter();
-            visiblesCounter.resetCounter();
-            hitsCounter.resetCounter();
 
-            updateUI();
+
         }
 
         @Override
@@ -73,7 +65,6 @@ public class Ohjelma_2 extends AppCompatActivity {
             super.onStart();
             Log.d("MY_TAG","onStart() called");
 
-            visiblesCounter.addCounter();
             updateUI();
         }
 

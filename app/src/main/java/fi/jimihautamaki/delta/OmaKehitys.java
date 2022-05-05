@@ -33,24 +33,24 @@ public class OmaKehitys extends AppCompatActivity {
         rintaK.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OmaKehitys.this, Kehitys1.class);
-                startActivity(intent);
+                Intent kehitys1 = new Intent(OmaKehitys.this, Kehitys1.class);
+                startActivity(kehitys1);
             }
         });
 
         selkaK.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent sali = new Intent(OmaKehitys.this, Kehitys2.class);
-                startActivity(sali);
+                Intent kehitys2 = new Intent(OmaKehitys.this, Kehitys2.class);
+                startActivity(kehitys2);
             }
         });
 
         jalkaK.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent oma = new Intent(OmaKehitys.this, Kehitys3.class);
-                startActivity(oma);
+                Intent kehitys3 = new Intent(OmaKehitys.this, Kehitys3.class);
+                startActivity(kehitys3);
             }
         });
 
