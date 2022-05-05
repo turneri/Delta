@@ -1,4 +1,4 @@
-package fi.jimihautamaki.delta;
+/*package fi.jimihautamaki.delta;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -26,9 +26,6 @@ public class Ohjelma_2 extends AppCompatActivity {
             int visibles = prefGet.getInt("Visibles", 0);
             int hits = prefGet.getInt("Hits", 0);
 
-            creationsCounter = new Counter(0,100,creations,1);
-            visiblesCounter = new Counter(0,100,visibles,1);
-            hitsCounter = new Counter(0,100,hits,1);
 
             penkkipaino = findViewById(R.id.Penkki_Paino);
             vinopenkki = findViewById(R.id.VinoPenkki_Paino);
@@ -80,11 +77,7 @@ public class Ohjelma_2 extends AppCompatActivity {
             updateUI();
         }
 
-        @Override
-        protected void onStop() {
-            super.onStop();
-            Log.d("MY_TAG","onStop() called");
-        }
+
 
         @Override
         protected void onDestroy() {
@@ -92,22 +85,7 @@ public class Ohjelma_2 extends AppCompatActivity {
             Log.d("MY_TAG","onDestroy() called");
         }
 
-        @Override
-        protected void onPause() {
-            super.onPause();
-            Log.d("MY_TAG","onPause() called");
 
-            SharedPreferences prefPut = getSharedPreferences("MyTestPref", Activity.MODE_PRIVATE);
-            SharedPreferences.Editor prefEditor = prefPut.edit();
-
-            prefEditor.putInt("Creations",creationsCounter.getCounter() );
-            prefEditor.putInt("Visibles",visiblesCounter.getCounter() );
-            prefEditor.putInt("Hits",hitsCounter.getCounter() );
-
-
-            prefEditor.commit();
-
-        }
 
         @Override
         protected void onResume() {
@@ -121,4 +99,4 @@ public class Ohjelma_2 extends AppCompatActivity {
             Log.d("MY_TAG","onRestart() called");
         }
     }
-}
+}*/
