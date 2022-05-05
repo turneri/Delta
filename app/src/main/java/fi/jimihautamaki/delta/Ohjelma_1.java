@@ -2,21 +2,18 @@ package fi.jimihautamaki.delta;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
+import android.widget.TextView;
 
 public class Ohjelma_1 extends AppCompatActivity {
 
 
+    private TextView ylatalja, kulmapaino, alatalja;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ohjelma1);
-    }
-    public class MainActivity extends AppCompatActivity {
-        private Counter creationsCounter,visiblesCounter,hitsCounter;
-        private TextView creationsCount,visiblesCount,hitsCount;
+
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -25,18 +22,16 @@ public class Ohjelma_1 extends AppCompatActivity {
 
             Log.d("MY_TAG","onCreate() called");
 
-            SharedPreferences prefGet = getSharedPreferences("MyTestPref" ,Activity.MODE_PRIVATE);
+            SharedPreferences prefGet = getSharedPreferences("MyTestPref" , Activity.MODE_PRIVATE);
             int creations = prefGet.getInt("Creations", 0);
             int visibles = prefGet.getInt("Visibles", 0);
             int hits = prefGet.getInt("Hits", 0);
 
-            creationsCounter = new Counter(0,100,creations,1);
-            visiblesCounter = new Counter(0,100,visibles,1);
-            hitsCounter = new Counter(0,100,hits,1);
 
-            creationsCount = findViewById(R.id.creationCount);
-            visiblesCount = findViewById(R.id.visibleCount);
-            hitsCount = findViewById(R.id.hitCount);
+
+            ylatalja = findViewById(R.id.YläTalja_paino);
+            kulmapaino = findViewById(R.id.Kulma_Paino);
+            alatalja = findViewById(R.id.Alatalja_Paino);
 
 
 
@@ -46,9 +41,9 @@ public class Ohjelma_1 extends AppCompatActivity {
         }
 
         public void updateUI(){
-            creationsCount.setText(Integer.toString(creationsCounter.getCounter()));
-            visiblesCount.setText(Integer.toString(visiblesCounter.getCounter()));
-            hitsCount.setText(Integer.toString(hitsCounter.getCounter()));
+            ylatalja.setText(Integer.toString(creationsCounter.getCounter()));
+            kulmapaino.setText(Integer.toString(visiblesCounter.getCounter()));
+            alatalja.setText(Integer.toString(hitsCounter.getCounter()));
         }
 
         public void hitButtonPressed(View view){
