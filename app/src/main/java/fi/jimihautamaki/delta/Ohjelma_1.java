@@ -11,14 +11,14 @@ import android.widget.TextView;
 public class Ohjelma_1 extends AppCompatActivity {
 
 
-    private TextView ylatalja, kulmapaino, alatalja, kasipaino;
+    private TextView ylatalja, kulmapaino, alatalja, kasipaino, hauistalja, hauisEz;
 
 
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_main);
+            setContentView(R.layout.activity_ohjelma1);
 
             Log.d("MY_TAG","onCreate() called");
 
@@ -33,41 +33,20 @@ public class Ohjelma_1 extends AppCompatActivity {
             kulmapaino = findViewById(R.id.Kulma_Paino);
             alatalja = findViewById(R.id.Alatalja_Paino);
             kasipaino = findViewById(R.id.Käsi_Paino);
-            alatalja = findViewById(R.id.Alatalja_Paino);
+            hauistalja = findViewById(R.id.HauisTalja_Paino);
+            hauistalja = findViewById(R.id.HauisEz_Paino);
 
 
 
-            creationsCounter.addCounter();
-            updateUI();
-        }
-
-        public void updateUI(){
-            ylatalja.setText(Integer.toString(creationsCounter.getCounter()));
-            kulmapaino.setText(Integer.toString(visiblesCounter.getCounter()));
-            alatalja.setText(Integer.toString(hitsCounter.getCounter()));
-        }
-
-        public void hitButtonPressed(View view){
-            hitsCounter.addCounter();
-
-            updateUI();
-        }
-        public void resetButtonPressed(View view){
-            creationsCounter.resetCounter();
-            visiblesCounter.resetCounter();
-            hitsCounter.resetCounter();
 
             updateUI();
         }
 
-        @Override
-        protected void onStart() {
-            super.onStart();
-            Log.d("MY_TAG","onStart() called");
+        public void updateUI() {
 
-            visiblesCounter.addCounter();
-            updateUI();
         }
+
+
 
         @Override
         protected void onStop() {
@@ -89,9 +68,7 @@ public class Ohjelma_1 extends AppCompatActivity {
             SharedPreferences prefPut = getSharedPreferences("MyTestPref", Activity.MODE_PRIVATE);
             SharedPreferences.Editor prefEditor = prefPut.edit();
 
-            prefEditor.putInt("Creations",creationsCounter.getCounter() );
-            prefEditor.putInt("Visibles",visiblesCounter.getCounter() );
-            prefEditor.putInt("Hits",hitsCounter.getCounter() );
+
 
 
             prefEditor.commit();
@@ -111,4 +88,3 @@ public class Ohjelma_1 extends AppCompatActivity {
         }
     }
 
-    }
