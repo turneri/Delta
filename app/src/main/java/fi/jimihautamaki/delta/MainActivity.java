@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        kehitys = (Button) findViewById(R.id.Kehitys_Button);
+      kehitys = (Button) findViewById(R.id.Kehitys_Button);
         saliohjelmat = (Button) findViewById(R.id.Ohjelmat_Button);
         omaTreeni = (Button) findViewById(R.id.Treenit_Button);
 
