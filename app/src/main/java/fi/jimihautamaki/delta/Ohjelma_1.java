@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class Ohjelma_1 extends AppCompatActivity {
 
 
-    private TextView ylatalja, kulmapaino, alatalja;
+    private TextView ylatalja, kulmapaino, alatalja, kasipaino;
 
 
 
@@ -32,7 +32,8 @@ public class Ohjelma_1 extends AppCompatActivity {
             ylatalja = findViewById(R.id.YläTalja_paino);
             kulmapaino = findViewById(R.id.Kulma_Paino);
             alatalja = findViewById(R.id.Alatalja_Paino);
-
+            kasipaino = findViewById(R.id.Käsi_Paino);
+            alatalja = findViewById(R.id.Alatalja_Paino);
 
 
 
