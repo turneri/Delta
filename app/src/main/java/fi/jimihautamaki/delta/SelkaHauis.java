@@ -29,7 +29,7 @@ public class SelkaHauis extends AppCompatActivity  {
         hauistalja = findViewById(R.id.HauisTalja_Paino);
         hauisEz = findViewById(R.id.HauisEz_Paino);
         Submit1 = findViewById(R.id.Submit1);
-        tarkastele = findViewById(R.id.tarkastele);
+        tarkastele = findViewById(R.id.tarkastele3);
         DB = new DBhelper(this);
         Submit1.setOnClickListener(new View.OnClickListener() {
             @Override
