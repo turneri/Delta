@@ -53,10 +53,10 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/selka"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.852" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/selka"
