@@ -39,7 +39,7 @@ public class OmaTreeni extends AppCompatActivity implements AdapterView.OnItemSe
                         oma = new Intent(OmaTreeni.this, rintaselka.class);
                         break;
                     case "Selkä":
-                        oma = new Intent(OmaTreeni.this, SelkaHauis.class);
+                        oma = new Intent(OmaTreeni.this, Ohjelma_1.class);
                         break;
                     case "Jalat":
                         oma = new Intent(OmaTreeni.this, Jalat.class);
