@@ -19,9 +19,9 @@ public class SelkaHauis extends AppCompatActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ohjelma1);
+        setContentView(R.layout.activity_selka_hauis);
 
-        PvM = findViewById(R.id.PvM);
+        PvM = findViewById(R.id.PvM2);
         ylatalja = findViewById(R.id.YläTalja_paino);
         kulmapaino = findViewById(R.id.Kulma_Paino);
         alatalja = findViewById(R.id.Alatalja_Paino);

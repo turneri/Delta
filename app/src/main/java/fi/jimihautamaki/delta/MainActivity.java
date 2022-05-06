@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
                 builder.setCancelable(true);
                 builder.setTitle("Tarvitsetko apua?");
-                builder.setMessage("Saliohjelmat: Nappia painamalla voit tarkastella valmiita treeniohjelmia. \n\n Omat treenit: Tänne voit täyttää treenisiisi liittyvät tiedot ja painot millä olet harjoitellut");
+                builder.setMessage("Saliohjelmat: Nappia painamalla voit tarkastella valmiita treeniohjelmia. \n\n Omat treenit: Tänne voit täyttää treenisiisi liittyvät tiedot ja painot millä olet harjoitellut sekä katsoa aiemmat harjoitteesi");
 
 
 
