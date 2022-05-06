@@ -23,14 +23,15 @@
 
     <Spinner
         android:id="@+id/Ohjelmat_spinner"
-        android:layout_width="295dp"
-        android:layout_height="43dp"
+        android:layout_width="307dp"
+        android:layout_height="64dp"
         android:layout_marginTop="240dp"
         android:background="@android:drawable/btn_dropdown"
         android:spinnerMode="dropdown"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView"
