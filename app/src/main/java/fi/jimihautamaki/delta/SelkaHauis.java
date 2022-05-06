@@ -29,7 +29,7 @@ public class SelkaHauis extends AppCompatActivity  {
         hauistalja = findViewById(R.id.HauisTalja_Paino);
         hauisEz = findViewById(R.id.HauisEz_Paino);
         Submit1 = findViewById(R.id.Submit1);
-        tarkastele = findViewById(R.id.tarkastele);
+        tarkastele = findViewById(R.id.tarkastele3);
         DB = new DBhelper(this);
         Submit1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,8 +60,8 @@ public class SelkaHauis extends AppCompatActivity  {
                 }
                 StringBuffer buffer = new StringBuffer();
                 while(res.moveToNext()){
-                    buffer.append("Päivänmäärä :"+res.getString(0)+"\n");
-                    buffer.append("Ylätaljan paino :"+res.getString(1)+"\n");
+                    buffer.append("Päivänmäärä :"+res.getString(0)+"\n\n");
+                    buffer.append("Ylätaljan paino :"+res.getString(1)+"\n\n");
                     buffer.append("Kulmanostojen painot :"+res.getString(2)+"\n\n");
                     buffer.append("Alataljan painot :"+res.getString(3)+"\n\n");
                     buffer.append("Käsipainot :"+res.getString(4)+"\n\n");
