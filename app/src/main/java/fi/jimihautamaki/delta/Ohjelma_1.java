@@ -36,10 +36,6 @@ public class Ohjelma_1 extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                }
-                 }
-
-            public void onClick(View tarkastele) {
                 String pvmTXT = PvM.getText().toString();
                 String ylaTXT = ylatalja.getText().toString();
                 String kulmaTXT = kulmapaino.getText().toString();
@@ -80,5 +76,5 @@ public class Ohjelma_1 extends AppCompatActivity {
             builder.setMessage(buffer.toString());
             builder.show();
         }
-}
-}
+});
+}}

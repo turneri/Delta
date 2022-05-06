@@ -25,9 +25,6 @@
             android:name=".Ohjelma_3"
             android:exported="false" />
         <activity
-            android:name=".Ohjelma_1"
-            android:exported="false" />
-        <activity
             android:name=".OmaKehitys"
             android:exported="false" />
         <activity android:name=".Saliohjelmat" />

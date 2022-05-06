@@ -23,7 +23,7 @@ public class DBhelper extends SQLiteOpenHelper {
         DB.execSQL("drop Table if exists Userdetails");
     }
 
-    public Boolean insertuserdata (int PvM, int ylatalja, int kulmapaino, int alatalja, int kasipaino, int hauistalja, int hauisEz)
+    public Boolean insertuserdata (String PvM, String ylatalja, String kulmapaino, String alatalja, String kasipaino, String hauistalja, String hauisEz)
     {
         SQLiteDatabase DB = getWritableDatabase();
         ContentValues contentValues = new ContentValues();
@@ -43,7 +43,7 @@ public class DBhelper extends SQLiteOpenHelper {
 
     }
 
-    public Boolean updateuserdata(int PvM, int ylatalja, int kulmapaino, int alatalja, int kasipaino, int hauistalja, int hauisEz)
+    public Boolean updateuserdata(String PvM, String ylatalja, String kulmapaino, String alatalja, String kasipaino, String hauistalja, String hauisEz)
     {
         SQLiteDatabase DB = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
@@ -53,9 +53,9 @@ public class DBhelper extends SQLiteOpenHelper {
         contentValues.put ("kasipaino", kasipaino);
         contentValues.put ("hauistalja", hauistalja);
         contentValues.put ("hauisEZ", hauisEz);
-        Cursor cursor = DB.rawQuery("Select * from Userdetails where PvM = ?", new String[][]{PvM});
+        Cursor cursor = DB.rawQuery("Select * from Userdetails where PvM = ?", new String[]{PvM});
         if (cursor.getCount() > 0) {
-            long result = DB.update("Userdetails", contentValues, "name=?", new String[][]{PvM});
+            long result = DB.update("Userdetails", contentValues, "name=?", new String[]{PvM});
             if (result == -1) {
                 return false;
             } else {
