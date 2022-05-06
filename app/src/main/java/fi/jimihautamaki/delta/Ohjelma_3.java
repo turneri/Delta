@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class Ohjelma_3 extends AppCompatActivity {
 
-    EditText PvM, kyykky, jalkaprassi, reidenojennus, reidenloitonnus, bulgarialainen, pohkeet,istumaannousu ;
+    EditText PvM3, kyykky, jalkaprassi, reidenojennus, reidenloitonnus, bulgarialainen, pohkeet,istumaannousu ;
     Button Submit3, tarkastele3;
     DBhelper DB;
 
@@ -27,7 +27,7 @@ public class Ohjelma_3 extends AppCompatActivity {
 
 
 
-        PvM = findViewById(R.id.PvM);
+        PvM3 = findViewById(R.id.PvM);
         kyykky = findViewById(R.id.Kyykky_Paino);
         jalkaprassi = findViewById(R.id.Jalkaprässi_Paino);
         reidenojennus = findViewById(R.id.ReidenOjennus_Paino);
@@ -42,7 +42,7 @@ public class Ohjelma_3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                String pvmTXT = PvM.getText().toString();
+                String pvmTXT = PvM3.getText().toString();
                 String kyykkyTXT = kyykky.getText().toString();
                 String jalkaTXT = jalkaprassi.getText().toString();
                 String rojennusTXT = reidenojennus.getText().toString();

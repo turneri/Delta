@@ -28,7 +28,7 @@ public class Ohjelma_2 extends AppCompatActivity {
 
 
 
-        EditText PvM, penkki, vinopenkki, peckdeck, kasipaino, hauistalja, vipunostotsivu,ojentajaez, ojentajatalja ;
+        EditText PvM2, penkki, vinopenkki, peckdeck, kasipaino, hauistalja, vipunostotsivu,ojentajaez, ojentajatalja ;
         Button Submit2, tarkastele2;
         DBhelper DB;
 
@@ -41,7 +41,7 @@ public class Ohjelma_2 extends AppCompatActivity {
 
 
 
-            PvM = findViewById(R.id.PvM);
+            PvM2 = findViewById(R.id.PvM);
             penkki = findViewById(R.id.Penkki_Paino);
             vinopenkki = findViewById(R.id.VinoPenkki_Paino);
             peckdeck = findViewById(R.id.PeckDeck_Paino);
@@ -57,7 +57,7 @@ public class Ohjelma_2 extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    String pvmTXT = PvM.getText().toString();
+                    String pvmTXT = PvM2.getText().toString();
                     String penkkiTXT = penkki.getText().toString();
                     String vinoTXT = vinopenkki.getText().toString();
                     String peckTXT = peckdeck.getText().toString();
